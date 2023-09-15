@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js"></script>
+</head>
+
+<body style="background-image: url('Pixel_space.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center;">
+    <div class="center-container">
+    <section class="signup-section">
+        <h1>Sign Up</h1>
+        <form id="signupForm" action="#" method="post">
+            <div class="input-container">
+    <label for="firstName" class="label-spacing">First Name:</label><br>
+    <input type="text" id="firstName" name="firstName">
+    <span id="firstNameError" class="error"></span>
+</div>
+
+<div class="input-container">
+    <label for="middleInitial" class="label-spacing">Middle Initial:</label><br>
+    <input type="text" id="middleInitial" name="middleInitial" maxlength="2">
+    <span id="middleInitialError" class="error"></span>
+</div>
+
+<div class="input-container">
+    <label for="lastName" class="label-spacing">Last Name:</label><br>
+    <input type="text" id="lastName" name="lastName">
+    <span id="lastNameError" class="error"></span>
+</div>
+
+<div class="input-container">
+    <label for="email" class="label-spacing">Email:</label><br>
+    <input type="email" id="email" name="email">
+    <span id="emailError" class="error"></span>
+</div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+    </div>
+</body>
+</html>

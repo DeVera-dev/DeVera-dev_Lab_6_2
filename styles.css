@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    font-family: Fantasy;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; 
+    background-color: #3A3B3C;
+    background-image: "mmcm.jpeg"; /* Replace 'background.jpg' with your image file name */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fix the image to the viewport */
+    background-position: center; /* Center the image */
+
+}
+h1 {
+    color: #0C090A;
+    font-family: Fantasy;
+}
+
+.center-container {
+    max-width: 450px; /* Adjust this value based on your desired maximum width */
+    width: 100%;
+    text-align: center; /* Center the content horizontally */
+}
+
+.signup-section {
+    max-width: 300px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #838996;
+}
+.label-spacing {
+    margin-bottom: 5px; 
+}
+.error {
+    font-size: 12px; 
+    font-family: Monospace;
+    color: red;
+}
+.signup-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    margin-top: 5px; /* Adjust the margin as needed */
+    vertical-align: middle; /* Adjust the vertical alignment as needed */
+}
+
+
+form {
+    text-align: left;
+    font-family: Fantasy;
+    background-color: #838996;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Fantasy;
+    color: #0C090A;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    border: 1px solid #4CAF50;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #6C2DC7;
+    color: white;
+    padding: 15px 30px; /* Increase padding for wider buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 13px 0; /* Add more margin to separate buttons vertically */
+    width: 100%; /* Make buttons as wide as the form */
+    font-family: Monospace;
+    color: #0C090A;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
